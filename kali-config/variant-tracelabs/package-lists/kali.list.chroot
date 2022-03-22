@@ -65,7 +65,6 @@ stegosuite
 wireshark
 openvpn
 metagoofil
-eyewitness
 exifprobe
 ruby-bundler
 recon-ng
@@ -79,6 +78,5 @@ drawing
 finalrecon
 
 # Browsers
-torbrowser-launcher
-tor
+
 firefox-esr
