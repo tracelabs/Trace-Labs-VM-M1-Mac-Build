@@ -1,0 +1,547 @@
+[2022-03-22 13:29:46] lb clean --purge
+P: Cleaning chroot
+[2022-03-22 13:29:46] lb config -a amd64 --distribution kali-rolling -- --variant tracelabs
+P: Executing auto/config script.
+removed 'config/includes.chroot/etc/skel/Desktop/Trace-Labs-OSINT-Search-Party-CTF-Contestant-Guide_v1.1.pdf'
+removed 'config/includes.chroot/etc/skel/Desktop/Updater.desktop'
+removed 'config/includes.chroot/etc/skel/Desktop/Trace-Labs-OSINT-Search-Party-CTF-Judge-Guide_v4.pdf'
+removed 'config/includes.chroot/etc/chromium/policies/managed/test_policy.json'
+removed 'config/includes.chroot/etc/xdg/menus/applications-merged/tl-applications.menu'
+removed 'config/includes.chroot/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml'
+removed 'config/includes.chroot/etc/live/config.conf.d/kali.conf'
+removed 'config/includes.chroot/usr/lib/live/config/0031-kali-user-setup'
+removed 'config/includes.chroot/usr/lib/live/config/1165-fix-openssh-server'
+removed 'config/includes.chroot/usr/bin/reconspider'
+removed 'config/includes.chroot/usr/bin/wikileaker'
+removed 'config/includes.chroot/usr/bin/mailfy'
+removed 'config/includes.chroot/usr/bin/finalrecon'
+removed 'config/includes.chroot/usr/bin/sherlock'
+removed 'config/includes.chroot/usr/bin/onionsearch'
+removed 'config/includes.chroot/usr/bin/domainfy'
+removed 'config/includes.chroot/usr/bin/usufy'
+removed 'config/includes.chroot/usr/bin/spiderpig'
+removed 'config/includes.chroot/usr/bin/tiktok-scraper'
+removed 'config/includes.chroot/usr/bin/phoneinfoga'
+removed 'config/includes.chroot/usr/bin/searchfy'
+removed 'config/includes.chroot/usr/bin/checkfy'
+removed 'config/includes.chroot/usr/bin/twayback'
+removed 'config/includes.chroot/usr/bin/alias-generator'
+removed 'config/includes.chroot/usr/bin/whatsmyname'
+removed 'config/includes.chroot/usr/bin/buster'
+removed 'config/includes.chroot/usr/bin/littlebrother'
+removed 'config/includes.chroot/usr/bin/infoga'
+removed 'config/includes.chroot/usr/bin/dumpsterdiver'
+removed 'config/includes.chroot/usr/bin/sn0int'
+removed 'config/includes.chroot/usr/bin/phonefy'
+removed 'config/includes.chroot/usr/share/firefox-esr/distribution/policies.json'
+removed 'config/includes.chroot/usr/share/firefox-esr/distribution/distribution.ini'
+removed 'config/includes.chroot/usr/share/desktop-directories/02-email.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/03-data-analysis.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/08-frameworks.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/07-reverseengineer.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/browsers.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/tracelabs.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/01-info-gathering.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/11-forensics.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/05-social-media.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/07-note-taking.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/09-domains.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/12-reporting.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/06-downloaders.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/04-usernames.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/01-07-osint-analysis.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/01-phone-numbers.directory'
+removed 'config/includes.chroot/usr/share/desktop-directories/08-exploitation-tools.directory'
+removed 'config/includes.chroot/usr/share/chromium/initial_bookmarks.html'
+removed 'config/includes.chroot/usr/share/chromium/master_preferences'
+removed 'config/includes.chroot/usr/share/updater/updater.sh'
+removed 'config/includes.chroot/usr/share/updater/upgrade-icon.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-mesh-4x3.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-light.svg'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-mesh.xml'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-small-logo-4x3.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-grid-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-dark-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-rings-16x10.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-rings.xml'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-light-16x10.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-light-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-trail-4x3.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-strips.xml'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-light-4x3.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-small-logo.xml'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-rings-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-logo-16x10.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-logo-4x3.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-mesh-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-strips-4x3.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/tracelabs-3840x2160.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-logo.xml'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-logo.svg'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-strips-16x10.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-trail-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-trail.xml'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/tracelabs-1280x720.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-blue-matrix-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-small-logo-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-mesh-16x10.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/tracelabs.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-rings-4x3.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/tracelabs-1920x1080.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-trail-16x10.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-light.xml'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-small-logo-16x10.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-strips-16x9.png'
+removed 'config/includes.chroot/usr/share/backgrounds/kali/kali-logo-16x9.png'
+removed 'config/includes.chroot/usr/share/applications/tl-domainfy.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-WebHTTrack-Websites.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-WebHTTrack.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-sherlock.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-exifgrep.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-photon.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-osrf-upgrade.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-cherrytree.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-instaloader.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-littlebrother.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-checkfy.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-alias-generator.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-phonefy.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-tl-tiktok-scraper.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-usufy.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-sublist3r.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-Buster.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-PhoneInfoga.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-youtube-dl.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-metagoofil.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-Infoga.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-twayback.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-h8mail.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-sn0int.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-Spiderpig.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-theHarvester.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-whatsmyname.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-osrf.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-wikileaker.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-toutatis.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-exiftool.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-spiderfoot.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-finalrecon.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-onionsearch.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-dumpsterdiver.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-stegosuite.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-exifprobe.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-searchfy.desktop'
+removed 'config/includes.chroot/usr/share/applications/tl-mailfy.desktop'
+removed 'config/includes.chroot/usr/share/icons/hicolor/scalable/categories/tracelabs.svg'
+removed 'config/includes.binary/isolinux/splash.png'
+removed 'config/includes.binary/isolinux/stdmenu.cfg'
+removed 'config/hooks/normal/osint-packages.chroot'
+removed 'config/hooks/live/kali-hacks.chroot'
+removed 'config/bootloaders/grub-pc/config.cfg'
+removed 'config/bootloaders/grub-pc/splash.png'
+removed 'config/bootloaders/grub-pc/theme/select_c.png'
+removed 'config/bootloaders/grub-pc/theme/theme.txt'
+removed 'config/bootloaders/grub-pc/theme/select_e.png'
+removed 'config/bootloaders/grub-pc/theme/select_w.png'
+removed 'config/bootloaders/grub-pc/grub.cfg'
+removed 'config/bootloaders/grub-pc/theme.cfg'
+removed 'config/bootloaders/grub-pc/grub-theme.in'
+removed 'config/bootloaders/syslinux_common/menu.cfg'
+removed 'config/bootloaders/syslinux_common/live.cfg.in'
+removed 'config/includes.installer/usr/lib/live-installer.d/unhold'
+removed 'config/includes.installer/usr/lib/finish-install.d/14kali-finish-install'
+removed 'config/includes.installer/preseed.cfg'
+removed 'config/includes.installer/kali-finish-install'
+removed 'config/package-lists/linux-headers.list.chroot'
+removed 'config/package-lists/hardware-support.list.chroot'
+removed 'config/package-lists/virtualization.list.chroot'
+removed 'config/package-lists/kali.list.binary'
+removed 'config/package-lists/standard.list.chroot'
+removed 'config/preseed/kali.cfg.chroot'
+removed 'config/package-lists/kali.list.chroot'
+[2022-03-22 13:29:47] lb config noauto --distribution kali-rolling --debian-installer-distribution kali-rolling --archive-areas main contrib non-free --debootstrap-options --keyring=/usr/share/keyrings/kali-archive-keyring.gpg --keyring-packages kali-archive-keyring --updates false --backports false --source false --firmware-binary true --firmware-chroot true --mirror-bootstrap http://kali.download/kali --mirror-debian-installer http://kali.download/kali --mirror-binary http://http.kali.org/kali --iso-application Kali Linux --iso-publisher Kali --iso-volume Kali Live --linux-packages linux-image --memtest memtest86 --bootappend-live boot=live components quiet splash noeject --bootappend-live-failsafe boot=live components noeject memtest noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal --bootappend-install net.ifnames=0 --security false --debian-installer live -a amd64
+P: Updating config tree for a debian/kali-rolling/amd64 system
+P: Symlinking hooks...
+[2022-03-22 13:29:47] lb build 
+P: live-build 20210902kali2
+P: Building for a debian/kali-rolling/amd64 system
+[2022-03-22 13:29:47] lb bootstrap 
+P: Setting up clean exit handler
+[2022-03-22 13:29:47] lb bootstrap_cache restore
+P: Restoring bootstrap stage from cache...
+[2022-03-22 13:30:05] lb bootstrap_debootstrap 
+P: Begin bootstrapping system...
+W: Skipping bootstrap, already done
+[2022-03-22 13:30:05] lb bootstrap_cache save
+P: Saving bootstrap stage to cache...
+W: Skipping bootstrap_cache.save, already done
+[2022-03-22 13:30:05] lb chroot_prep install all-except-archives
+[2022-03-22 13:30:05] lb chroot_devpts install
+P: Begin mounting /dev/pts...
+[2022-03-22 13:30:05] lb chroot_proc install
+P: Begin mounting /proc...
+[2022-03-22 13:30:05] lb chroot_selinuxfs install
+[2022-03-22 13:30:05] lb chroot_sysfs install
+P: Begin mounting /sys...
+[2022-03-22 13:30:05] lb chroot_debianchroot install
+P: Configuring file /etc/debian_chroot
+W: Skipping chroot_debianchroot, already done
+[2022-03-22 13:30:05] lb chroot_dpkg install
+P: Configuring file /sbin/start-stop-daemon
+W: Skipping chroot_dpkg, already done
+[2022-03-22 13:30:05] lb chroot_tmpfs install
+[2022-03-22 13:30:05] lb chroot_sysv-rc install
+P: Configuring file /usr/sbin/policy-rc.d
+W: Skipping chroot_sysv-rc, already done
+[2022-03-22 13:30:05] lb chroot_hosts install
+P: Configuring file /etc/hosts
+W: Skipping chroot_hosts, already done
+[2022-03-22 13:30:05] lb chroot_resolv install
+P: Configuring file /etc/resolv.conf
+W: Skipping chroot_resolv, already done
+[2022-03-22 13:30:05] lb chroot_hostname install
+W: Skipping chroot_hostname, already done
+[2022-03-22 13:30:05] lb chroot_apt install
+P: Configuring file /etc/apt/apt.conf
+W: Skipping chroot_apt, already done
+[2022-03-22 13:30:05] lb bootstrap_archives 
+P: Configuring file /etc/apt/sources.list
+W: Skipping bootstrap_archives, already done
+[2022-03-22 13:30:05] lb chroot_prep remove all-except-archives
+[2022-03-22 13:30:05] lb chroot_apt remove
+P: Deconfiguring file /etc/apt/apt.conf
+[2022-03-22 13:30:05] lb chroot_hostname remove
+P: Deconfiguring file /etc/hostname
+P: Deconfiguring file /bin/hostname
+[2022-03-22 13:30:05] lb chroot_resolv remove
+P: Deconfiguring file /etc/resolv.conf
+[2022-03-22 13:30:05] lb chroot_hosts remove
+P: Deconfiguring file /etc/hosts
+[2022-03-22 13:30:05] lb chroot_sysv-rc remove
+P: Deconfiguring file /usr/sbin/policy-rc.d
+[2022-03-22 13:30:05] lb chroot_tmpfs remove
+[2022-03-22 13:30:05] lb chroot_dpkg remove
+P: Deconfiguring file /sbin/start-stop-daemon
+[2022-03-22 13:30:05] lb chroot_debianchroot remove
+P: Deconfiguring file /etc/debian_chroot
+[2022-03-22 13:30:05] lb chroot_sysfs remove
+P: Begin unmounting /sys...
+[2022-03-22 13:30:05] lb chroot_selinuxfs remove
+[2022-03-22 13:30:05] lb chroot_proc remove
+P: Begin unmounting /proc...
+[2022-03-22 13:30:05] lb chroot_devpts remove
+P: Begin unmounting /dev/pts...
+P: Bootstrap stage completed
+P: Begin unmounting filesystems...
+P: Saving caches...
+Reading package lists...
+Building dependency tree...
+[2022-03-22 13:30:06] lb chroot 
+P: Setting up clean exit handler
+[2022-03-22 13:30:06] lb chroot_cache restore
+[2022-03-22 13:30:06] lb chroot_prep install all mode-archives-chroot
+[2022-03-22 13:30:06] lb chroot_devpts install
+P: Begin mounting /dev/pts...
+[2022-03-22 13:30:06] lb chroot_proc install
+P: Begin mounting /proc...
+[2022-03-22 13:30:06] lb chroot_selinuxfs install
+[2022-03-22 13:30:06] lb chroot_sysfs install
+P: Begin mounting /sys...
+[2022-03-22 13:30:06] lb chroot_debianchroot install
+P: Configuring file /etc/debian_chroot
+[2022-03-22 13:30:06] lb chroot_dpkg install
+P: Configuring file /sbin/start-stop-daemon
+[2022-03-22 13:30:06] lb chroot_tmpfs install
+[2022-03-22 13:30:06] lb chroot_sysv-rc install
+P: Configuring file /usr/sbin/policy-rc.d
+[2022-03-22 13:30:06] lb chroot_hosts install
+P: Configuring file /etc/hosts
+[2022-03-22 13:30:06] lb chroot_resolv install
+P: Configuring file /etc/resolv.conf
+[2022-03-22 13:30:06] lb chroot_hostname install
+P: Configuring file /etc/hostname
+P: Configuring file /bin/hostname
+[2022-03-22 13:30:06] lb chroot_apt install
+P: Configuring file /etc/apt/apt.conf
+[2022-03-22 13:30:06] lb chroot_archives chroot install
+P: Configuring file /etc/apt/sources.list
+W: Skipping chroot_archives, already done
+[2022-03-22 13:30:06] lb chroot_linux-image 
+P: Begin scheduling kernel image installation...
+W: Skipping chroot_linux-image, already done
+[2022-03-22 13:30:06] lb chroot_firmware 
+P: Begin scheduling firmware installation...
+W: Skipping chroot_firmware, already done
+[2022-03-22 13:30:06] lb chroot_preseed 
+P: Begin executing local preseeds...
+W: Skipping chroot_preseed, already done
+[2022-03-22 13:30:06] lb chroot_includes_before_packages 
+P: Begin copying chroot includes before packages have been installed...
+W: Skipping chroot_includes_before_packages, already done
+[2022-03-22 13:30:06] lb chroot_package-lists install
+P: Begin queueing installation of package lists (install pass)...
+W: Skipping chroot_package-lists.install, already done
+[2022-03-22 13:30:06] lb chroot_install-packages install
+P: Begin installing packages (install pass)...
+W: Skipping chroot_install-packages.install, already done
+[2022-03-22 13:30:06] lb chroot_package-lists live
+P: Begin queueing installation of package lists (live pass)...
+W: Skipping chroot_package-lists.live, already done
+[2022-03-22 13:30:06] lb chroot_install-packages live
+P: Begin installing packages (live pass)...
+W: Skipping chroot_install-packages.live, already done
+[2022-03-22 13:30:07] lb chroot_includes_after_packages 
+P: Begin copying chroot includes after packages have been installed...
+W: Skipping chroot_includes_after_packages, already done
+[2022-03-22 13:30:07] lb chroot_hooks 
+P: Begin executing hooks...
+W: Skipping chroot_hooks, already done
+[2022-03-22 13:30:07] lb chroot_hacks 
+P: Begin executing hacks...
+W: Skipping chroot_hacks, already done
+[2022-03-22 13:30:07] lb chroot_interactive 
+[2022-03-22 13:30:07] lb chroot_prep remove all mode-archives-chroot
+[2022-03-22 13:30:07] lb chroot_archives chroot remove
+P: Deconfiguring file /etc/apt/sources.list
+Get:1 http://kali.download/kali kali-rolling InRelease [30.6 kB]
+Get:2 http://kali.download/kali kali-rolling/non-free Sources [127 kB]
+Get:3 http://kali.download/kali kali-rolling/contrib Sources [71.8 kB]
+Get:4 http://kali.download/kali kali-rolling/main Sources [14.4 MB]
+Get:5 http://kali.download/kali kali-rolling/main amd64 Packages [18.0 MB]
+Get:6 http://kali.download/kali kali-rolling/contrib amd64 Packages [115 kB]
+Get:7 http://kali.download/kali kali-rolling/non-free amd64 Packages [206 kB]
+Fetched 33.0 MB in 4s (8354 kB/s)
+Reading package lists...
+[2022-03-22 13:30:11] lb chroot_apt remove
+P: Deconfiguring file /etc/apt/apt.conf
+[2022-03-22 13:30:11] lb chroot_hostname remove
+P: Deconfiguring file /etc/hostname
+P: Deconfiguring file /bin/hostname
+[2022-03-22 13:30:11] lb chroot_resolv remove
+P: Deconfiguring file /etc/resolv.conf
+[2022-03-22 13:30:11] lb chroot_hosts remove
+P: Deconfiguring file /etc/hosts
+[2022-03-22 13:30:11] lb chroot_sysv-rc remove
+P: Deconfiguring file /usr/sbin/policy-rc.d
+[2022-03-22 13:30:11] lb chroot_tmpfs remove
+[2022-03-22 13:30:11] lb chroot_dpkg remove
+P: Deconfiguring file /sbin/start-stop-daemon
+[2022-03-22 13:30:11] lb chroot_debianchroot remove
+P: Deconfiguring file /etc/debian_chroot
+[2022-03-22 13:30:11] lb chroot_sysfs remove
+P: Begin unmounting /sys...
+[2022-03-22 13:30:11] lb chroot_selinuxfs remove
+[2022-03-22 13:30:11] lb chroot_proc remove
+P: Begin unmounting /proc...
+[2022-03-22 13:30:11] lb chroot_devpts remove
+P: Begin unmounting /dev/pts...
+[2022-03-22 13:30:11] lb chroot_cache save
+P: Chroot stage completed
+P: Begin unmounting filesystems...
+P: Saving caches...
+Reading package lists...
+Building dependency tree...
+[2022-03-22 13:30:12] lb installer 
+P: Setting up clean exit handler
+[2022-03-22 13:30:12] lb chroot_prep install all mode-archives-chroot
+[2022-03-22 13:30:12] lb chroot_devpts install
+P: Begin mounting /dev/pts...
+[2022-03-22 13:30:12] lb chroot_proc install
+P: Begin mounting /proc...
+[2022-03-22 13:30:12] lb chroot_selinuxfs install
+[2022-03-22 13:30:12] lb chroot_sysfs install
+P: Begin mounting /sys...
+[2022-03-22 13:30:12] lb chroot_debianchroot install
+P: Configuring file /etc/debian_chroot
+[2022-03-22 13:30:12] lb chroot_dpkg install
+P: Configuring file /sbin/start-stop-daemon
+[2022-03-22 13:30:12] lb chroot_tmpfs install
+[2022-03-22 13:30:12] lb chroot_sysv-rc install
+P: Configuring file /usr/sbin/policy-rc.d
+[2022-03-22 13:30:12] lb chroot_hosts install
+P: Configuring file /etc/hosts
+[2022-03-22 13:30:12] lb chroot_resolv install
+P: Configuring file /etc/resolv.conf
+[2022-03-22 13:30:12] lb chroot_hostname install
+P: Configuring file /etc/hostname
+P: Configuring file /bin/hostname
+[2022-03-22 13:30:12] lb chroot_apt install
+P: Configuring file /etc/apt/apt.conf
+[2022-03-22 13:30:12] lb chroot_archives chroot install
+P: Configuring file /etc/apt/sources.list
+Get:1 http://kali.download/kali kali-rolling InRelease [30.6 kB]
+Get:2 http://kali.download/kali kali-rolling/contrib Sources [71.8 kB]
+Get:3 http://kali.download/kali kali-rolling/non-free Sources [127 kB]
+Get:4 http://kali.download/kali kali-rolling/main Sources [14.4 MB]
+Get:5 http://kali.download/kali kali-rolling/main amd64 Packages [18.0 MB]
+Get:6 http://kali.download/kali kali-rolling/contrib amd64 Packages [115 kB]
+Get:7 http://kali.download/kali kali-rolling/non-free amd64 Packages [206 kB]
+Fetched 33.0 MB in 10s (3474 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+kali-archive-keyring is already the newest version (2022.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Hit:1 http://kali.download/kali kali-rolling InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+[2022-03-22 13:30:28] lb installer_debian-installer 
+P: Begin installing debian-installer...
+W: Skipping installer_debian-installer, already done
+[2022-03-22 13:30:28] lb installer_preseed 
+P: Begin including local preseeds...
+W: Skipping installer_preseed, already done
+[2022-03-22 13:30:28] lb chroot_prep remove all mode-archives-chroot
+[2022-03-22 13:30:28] lb chroot_archives chroot remove
+P: Deconfiguring file /etc/apt/sources.list
+Get:1 http://kali.download/kali kali-rolling InRelease [30.6 kB]
+Get:2 http://kali.download/kali kali-rolling/contrib Sources [71.8 kB]
+Get:3 http://kali.download/kali kali-rolling/main Sources [14.4 MB]
+Get:4 http://kali.download/kali kali-rolling/non-free Sources [127 kB]
+Get:5 http://kali.download/kali kali-rolling/main amd64 Packages [18.0 MB]
+Get:6 http://kali.download/kali kali-rolling/contrib amd64 Packages [115 kB]
+Get:7 http://kali.download/kali kali-rolling/non-free amd64 Packages [206 kB]
+Fetched 33.0 MB in 6s (5544 kB/s)
+Reading package lists...
+[2022-03-22 13:30:35] lb chroot_apt remove
+P: Deconfiguring file /etc/apt/apt.conf
+[2022-03-22 13:30:35] lb chroot_hostname remove
+P: Deconfiguring file /etc/hostname
+P: Deconfiguring file /bin/hostname
+[2022-03-22 13:30:35] lb chroot_resolv remove
+P: Deconfiguring file /etc/resolv.conf
+[2022-03-22 13:30:35] lb chroot_hosts remove
+P: Deconfiguring file /etc/hosts
+[2022-03-22 13:30:35] lb chroot_sysv-rc remove
+P: Deconfiguring file /usr/sbin/policy-rc.d
+[2022-03-22 13:30:35] lb chroot_tmpfs remove
+[2022-03-22 13:30:35] lb chroot_dpkg remove
+P: Deconfiguring file /sbin/start-stop-daemon
+[2022-03-22 13:30:35] lb chroot_debianchroot remove
+P: Deconfiguring file /etc/debian_chroot
+[2022-03-22 13:30:35] lb chroot_sysfs remove
+P: Begin unmounting /sys...
+[2022-03-22 13:30:35] lb chroot_selinuxfs remove
+[2022-03-22 13:30:35] lb chroot_proc remove
+P: Begin unmounting /proc...
+[2022-03-22 13:30:35] lb chroot_devpts remove
+P: Begin unmounting /dev/pts...
+P: Installer stage completed
+P: Begin unmounting filesystems...
+P: Saving caches...
+Reading package lists...
+Building dependency tree...
+[2022-03-22 13:30:35] lb binary 
+P: Setting up clean exit handler
+[2022-03-22 13:30:35] lb binary_chroot 
+P: Begin copying chroot...
+W: Skipping binary_chroot, already done
+[2022-03-22 13:30:35] lb chroot_prep install devpts proc selinuxfs sysfs
+[2022-03-22 13:30:35] lb chroot_devpts install
+P: Begin mounting /dev/pts...
+[2022-03-22 13:30:36] lb chroot_proc install
+P: Begin mounting /proc...
+[2022-03-22 13:30:36] lb chroot_selinuxfs install
+[2022-03-22 13:30:36] lb chroot_sysfs install
+P: Begin mounting /sys...
+[2022-03-22 13:30:36] lb chroot_prep install dpkg tmpfs sysv-rc hosts resolv hostname apt mode-apt-install-binary mode-archives-chroot
+[2022-03-22 13:30:36] lb chroot_dpkg install
+P: Configuring file /sbin/start-stop-daemon
+[2022-03-22 13:30:36] lb chroot_tmpfs install
+[2022-03-22 13:30:36] lb chroot_sysv-rc install
+P: Configuring file /usr/sbin/policy-rc.d
+[2022-03-22 13:30:36] lb chroot_hosts install
+P: Configuring file /etc/hosts
+[2022-03-22 13:30:36] lb chroot_resolv install
+P: Configuring file /etc/resolv.conf
+[2022-03-22 13:30:36] lb chroot_hostname install
+P: Configuring file /etc/hostname
+P: Configuring file /bin/hostname
+[2022-03-22 13:30:36] lb chroot_apt install-binary
+P: Configuring file /etc/apt/apt.conf
+[2022-03-22 13:30:36] lb chroot_archives chroot install
+P: Configuring file /etc/apt/sources.list
+Get:1 http://kali.download/kali kali-rolling InRelease [30.6 kB]
+Get:2 http://kali.download/kali kali-rolling/main Sources [14.4 MB]
+Get:3 http://kali.download/kali kali-rolling/non-free Sources [127 kB]
+Get:4 http://kali.download/kali kali-rolling/contrib Sources [71.8 kB]
+Get:5 http://kali.download/kali kali-rolling/main amd64 Packages [18.0 MB]
+Get:6 http://kali.download/kali kali-rolling/contrib amd64 Packages [115 kB]
+Get:7 http://kali.download/kali kali-rolling/non-free amd64 Packages [206 kB]
+Fetched 33.0 MB in 2s (14.3 MB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+kali-archive-keyring is already the newest version (2022.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Hit:1 http://kali.download/kali kali-rolling InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+[2022-03-22 13:30:43] lb binary_rootfs 
+P: Begin building root filesystem image...
+W: Skipping binary_rootfs, already done
+[2022-03-22 13:30:43] lb binary_dm-verity 
+[2022-03-22 13:30:43] lb binary_manifest 
+P: Begin creating manifest...
+W: Skipping binary_manifest, already done
+[2022-03-22 13:30:43] lb binary_package-lists 
+P: Begin installing local package lists...
+W: Skipping binary_package-lists, already done
+[2022-03-22 13:30:43] lb binary_linux-image 
+P: Begin install linux-image...
+W: Skipping binary_linux-image, already done
+[2022-03-22 13:30:43] lb binary_memtest 
+P: Begin installing memtest...
+W: Skipping binary_memtest, already done
+[2022-03-22 13:30:43] lb binary_grub-legacy 
+[2022-03-22 13:30:43] lb binary_grub-pc 
+[2022-03-22 13:30:43] lb binary_grub_cfg 
+P: Begin installing config for grub-pc and/or grub-efi, and loopback support...
+W: Skipping binary_grub_cfg, already done
+[2022-03-22 13:30:43] lb binary_syslinux 
+P: Begin installing syslinux...
+W: Skipping binary_syslinux, already done
+[2022-03-22 13:30:43] lb binary_disk 
+P: Begin installing disk information...
+W: Skipping binary_disk, already done
+[2022-03-22 13:30:43] lb binary_loadlin 
+P: Begin copying loadlin...
+W: Skipping binary_loadlin, already done
+[2022-03-22 13:30:43] lb binary_win32-loader 
+P: Begin copying win32-loader...
+W: Skipping binary_win32-loader, already done
+[2022-03-22 13:30:43] lb binary_includes 
+P: Begin copying binary includes...
+W: Skipping binary_includes, already done
+[2022-03-22 13:30:43] lb binary_grub-efi 
+P: Begin preparing Grub based EFI support...
+W: Skipping binary_grub-efi, already done
+[2022-03-22 13:30:43] lb binary_hooks 
+P: Begin executing hooks...
+W: Skipping binary_hooks, already done
+[2022-03-22 13:30:43] lb binary_checksums 
+W: Skipping binary_checksums, already done
+find: ‘binary’: No such file or directory
+E: An unexpected failure occurred, exiting...
+P: Begin unmounting filesystems...
+P: Saving caches...
+Reading package lists...
+Building dependency tree...
