@@ -14,43 +14,18 @@ The following changes have been made to the default Kali git repo:
     * `desktop-directories`: desktop directories with tools
     * `firefox-esr/distribution`: default Firefox policy
 
-## Build Steps
-
-## Building the ISO file on Docker
-You will need a host\vm with Docker-engine installed. Installation guide can be found here: https://docs.docker.com/engine/install/
-Once you have docker install, you just need to run:
-
-```bash
-docker pull freed0m/tlosint-vm
-docker run --privileged -v $(pwd)/data:/data freed0m/tlosint-vm
-```
-
-**Windows Powershell:**
-```bash
-docker pull freed0m/tlosint-vm
-docker run --privileged -v ${PWD}\data:/data freed0m/tlosint-vm
-```
-
-**Windows CMD:**
-```bash
-docker pull freed0m/tlosint-vm
-docker run --privileged -v %cd%\data:/data freed0m/tlosint-vm
-```
-
-Once the docker container will finish running, you will be able to locate the ISO file inside a folder named "data" in the location you ran the commands.
-Now you can use the ISO file to install the tlosint vm.
 
 ## Building the ISO file on your Debian host or Debian VM
 
 ### Setup
-This build has only been tested on a pre-existing Kali environment, as recommended by Offensive Security. 
+This build will need to be done in an existing Kali VM on a M1 Mac host.  
 ```
-sudo wget -O - https://raw.githubusercontent.com/tracelabs/tlosint-live/master/build_tracelabsiso_recipe.sh | sudo bash
+git clone https://github.com/tracelabs/Trace-Labs-VM-M1-Mac-Build.git
+cd Trace-Labs-VM-M1-Build
+sudo ./build_tracelabsiso_recipe.sh
 ```
-If the build process is successful, a .iso file will be created in the `/opt/live-build-config/images` directory. The .iso file can be used for live boot or to install the Virtual Machine. The .iso file can also be converted to a .ova file using the `ovftool` as outlined in the "Converting to an OVA" page (https://www.kali.org/docs/virtualization/converting-to-ova/).
+If the build process is successful, a .iso file will be created in the `/opt` directory. The .iso file can be used for live boot or to install the Virtual Machine. The .iso file can also be converted to a .ova file using the `ovftool` as outlined in the "Converting to an OVA" page (https://www.kali.org/docs/virtualization/converting-to-ova/).
 
-## OVA Download
-We have set up Version 1.0 of this build in an OVA for you to easily try out. To get started, download the OVA file via the link below and run it in your choice of VM software (ie. VMware Workstation, Virtualbox etc.). The default credentials to log in to the TL OSINT VM are **osint:osint**
 
 https://www.tracelabs.org/initiatives/osint-vm
 
