@@ -13,7 +13,8 @@ The following changes have been made to the default Kali git repo:
     * `backgrounds`: default Tracelabs background
     * `desktop-directories`: desktop directories with tools
     * `firefox-esr/distribution`: default Firefox policy
-
+## Installing from ISO
+You may need to select "Advanced Install Options" from the menu. 
 
 ## Building the ISO file on your Debian host or Debian VM
 
