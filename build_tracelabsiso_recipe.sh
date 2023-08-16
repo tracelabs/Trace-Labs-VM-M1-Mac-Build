@@ -126,6 +126,7 @@ function tlosint-install {
 		#sed -i '181s/.*/#exit 1/' /opt/live-build-config/build.sh
 		# fix memtest error, setting to none
 		sed -i 's/--memtest memtest86+/--memtest none/g' $kali_path/auto/config
+		sed -i 's/--bootloaders grub-efi --uefi-secure-boot disable/--bootloaders grub-efi --uefi-secure-boot disable --debian-installer live/g' $kali_path/auto/config
 		$kali_path/build.sh --verbose --variant tracelabs
 		#rm -f kali-archive-keyring_2020.2_all.deb
 		# restore original apt settings
