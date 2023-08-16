@@ -52,30 +52,6 @@ libpq-dev
 nodejs
 npm
 
-# Custom tools
-spiderfoot
-sherlock
-maltego
-python3-shodan
-theharvester
-webhttrack
-outguess
-stegosuite
-wireshark
-openvpn
-metagoofil
-exifprobe
-ruby-bundler
-recon-ng
-cherrytree
-instaloader
-photon
-sublist3r
-osrframework
-joplin
-drawing
-finalrecon
-
 # Browsers
 
 firefox-esr
