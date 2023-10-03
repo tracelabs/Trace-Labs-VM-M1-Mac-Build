@@ -5,7 +5,6 @@ echo "export PATH=$PATH:$HOME/.local/bin" >> ~/.zshrc
 export PATH=$PATH:$HOME/.local/bin
 
 sudo apt install sherlock -y
-sudo apt install -y
 sudo apt install python3-shodan -y
 sudo apt install spiderfoot -y
 sudo apt install sherlock -y
@@ -60,7 +59,7 @@ cd ~/github-tools
 
 
 
-
+sudo apt install libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
 sudo npm i -g tiktok-scraper
 
 
