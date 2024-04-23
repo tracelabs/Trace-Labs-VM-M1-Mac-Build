@@ -161,6 +161,7 @@ function tlosint-install {
 root_check
 #clean up
 iso_path=$(find /opt/live-build-config -name "*.iso")
-mv "$iso_path" /opt/
+image_path=$(pwd)/images/
+mv "$iso_path" $image_path
 rm -rf "$kali_path"
 rm -rf "$tl_path"
