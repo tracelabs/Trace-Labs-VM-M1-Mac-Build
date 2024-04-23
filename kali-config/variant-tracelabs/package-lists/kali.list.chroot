@@ -23,35 +23,32 @@ open-vm-tools-desktop
 
 
 # Git package pre-reqs
-git
-golang
+#git
+#golang
 python3
-python3-pip
-build-essential
-#python2.7-dev
-#python2
-#python-pip
+#python3-pip
+#build-essential
 curl
-python-argparse
-build-essential
-libsqlite3-dev
-libseccomp-dev
-libsodium-dev
-publicsuffix
-cargo
-pkg-config
-rubygems 
-libtool
-libssl-doc
-libc6-dev
-libseccomp2
-libsqlite3-0
-sqlite3-doc
-ruby-dev
-libpq-dev
-nodejs
-npm
-
+#python-argparse
+#build-essential
+#libsqlite3-dev
+#libseccomp-dev
+#libsodium-dev
+#publicsuffix
+#cargo
+#pkg-config
+#rubygems 
+#libtool
+#libssl-doc
+#libc6-dev
+#libseccomp2
+#libsqlite3-0
+#sqlite3-doc
+#ruby-dev
+#libpq-dev
+#nodejs
+#npm
+zlib1g-dev
 # Browsers
 
 firefox-esr

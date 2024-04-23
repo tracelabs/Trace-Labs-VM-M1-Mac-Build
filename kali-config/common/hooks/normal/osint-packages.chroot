@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cat <<EOS | sudo bash
+
+
+# Install Obsidian app image
+mkdir /usr/share/obsidian
+wget -O /usr/share/obsidian/Obsidian.AppImage  https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.12/Obsidian-1.5.12-arm64.AppImage 
+chmod +x /usr/share/obsidian/Obsidian.AppImage
+
+EOS
