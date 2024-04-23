@@ -48,7 +48,7 @@ curl
 #libpq-dev
 #nodejs
 #npm
-
+zlib1g-dev
 # Browsers
 
 firefox-esr

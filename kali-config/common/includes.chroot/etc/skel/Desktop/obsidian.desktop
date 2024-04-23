@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Obsidian
+Comment=Notes
+GenericName=notes
+Exec=/usr/share/obsidian/Obsidian.AppImage
+Type=Application
