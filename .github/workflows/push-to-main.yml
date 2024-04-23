@@ -18,9 +18,9 @@ jobs:
     # Sets up Docker environment on macOS runner
     - name: Install Docker
       run: |
-        brew install --cask docker
-        open --background -a docker
-        sleep 10
+        brew install docker
+        colima start
+        
 
     # use docker to run the build_tracelabsiso_recipe.sh script
     - name: Run Docker command
