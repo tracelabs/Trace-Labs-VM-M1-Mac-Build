@@ -19,8 +19,6 @@ jobs:
     - name: Install Docker
       run: |
         brew install --cask docker
-        open --background -a Docker
-        sleep 10
 
     # use docker to run the build_tracelabsiso_recipe.sh script
     - name: Run Docker command
