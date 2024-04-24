@@ -28,4 +28,4 @@ jobs:
           cd $GITHUB_WORKSPACE
           chmod +x *.sh
           docker build -t tlm1-builder .
-          docker run --rm --interactive --net host --privileged --volume $(pwd):/recipes -v $(pwd)/images/:/images --workdir /recipes tlm1-builder ./build_tracelabsiso_recipe.sh
+          docker run --rm --interactive --net host --privileged --volume $(pwd):/recipes -v $(pwd)/images/:/recipes/images --workdir /recipes tlm1-builder ./build_tracelabsiso_recipe.sh
