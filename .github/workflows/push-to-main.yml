@@ -1,0 +1,35 @@
+name: push-to-main
+#a github action that will trigger on push to main or dev branch
+# will run the build_tracelabsiso_recipe.sh script inside a kali docker container
+on:
+  push:
+    branches:
+      - main
+      - dev  # Added the dev branch here
+
+jobs:
+  run-docker:
+    # Specifies that the job runs on a macOS environment
+    runs-on: macos-12
+    # checkout the code from the repository
+    steps:
+    - uses: actions/checkout@v4
+
+    # Sets up Docker environment on macOS runner
+    - name: Install Docker
+      run: |
+        brew install docker
+        colima start
+        
+
+    # build docker image
+    - name: build docker image
+      run:  |
+          cd $GITHUB_WORKSPACE
+          chmod +x *.sh
+          docker build -t tlm1-builder .
+   
+    # use docker to run the build_tracelabsiso_recipe.sh script    
+    - name: Run Docker command
+      run: |
+          docker run --rm --interactive --net host --privileged --volume $(pwd):/recipes --workdir /recipes tlm1-builder ./build_tracelabsiso_recipe.sh
