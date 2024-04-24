@@ -10,7 +10,7 @@ on:
 jobs:
   run-docker:
     # Specifies that the job runs on a macOS environment
-    runs-on: macos-12
+    runs-on: macos-13
     # checkout the code from the repository
     steps:
     - uses: actions/checkout@v4
@@ -22,10 +22,14 @@ jobs:
         colima start
         
 
-    # use docker to run the build_tracelabsiso_recipe.sh script
-    - name: Run Docker command
+    # build docker image
+    - name: build docker image
       run:  |
           cd $GITHUB_WORKSPACE
           chmod +x *.sh
           docker build -t tlm1-builder .
-          docker run --rm --interactive --net host --privileged --volume $(pwd):/recipes -v $(pwd)/images/:/recipes/images --workdir /recipes tlm1-builder ./build_tracelabsiso_recipe.sh
+   
+    # use docker to run the build_tracelabsiso_recipe.sh script    
+    - name: Run Docker command
+      run: |
+          docker run --rm --interactive --net host --privileged --volume $(pwd):/recipes --workdir /recipes tlm1-builder ./build_tracelabsiso_recipe.sh
