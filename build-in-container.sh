@@ -7,7 +7,7 @@ IMAGE=tlm1-builder
 OPTS=(
    --rm --interactive --tty --net host
     --privileged
-    --volume $(pwd):/recipes -v $(pwd)/images/:/images --workdir /recipes
+    --volume $(pwd):/recipes --workdir /recipes
 )
 
 bold() { tput bold; echo "$@"; tput sgr0; }
